@@ -32,7 +32,8 @@ export default function Carousel() {
 
   // These are the images used in the slide
   const cards = [
-    'https://images.unsplash.com/photo-1612852098516-55d01c75769a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60'
+    'https://images.unsplash.com/photo-1612852098516-55d01c75769a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
+    'https://www.youtube.com/watch?v=ZyjT2KyhHEk'
   ]
 
   return (
@@ -48,7 +49,7 @@ export default function Carousel() {
         type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
-      {/* Left Icon
+      {/* Left Icon */}
       <IconButton
         aria-label="left-arrow"
         colorScheme="messenger"
@@ -62,7 +63,7 @@ export default function Carousel() {
         <BiLeftArrowAlt />
       </IconButton>
       {/* Right Icon */}
-      {/* <IconButton
+       <IconButton
         aria-label="right-arrow"
         colorScheme="messenger"
         borderRadius="full"
@@ -73,7 +74,7 @@ export default function Carousel() {
         zIndex={2}
         onClick={() => slider?.slickNext()}>
         <BiRightArrowAlt />
-      </IconButton> */} 
+      </IconButton> 
       {/* Slider */}
       <Slider {...settings} ref={(slider) => setSlider(slider)}>
         {cards.map((url, index) => (
