@@ -1,0 +1,34 @@
+[
+    {
+        "nom": "Carrelage",
+        "description": "Découvrez notre service de carrelage sol de haute qualité, conçu pour transformer vos espaces en véritables chefs-d'œuvre. <br /> <br /> <b>Installation Professionnelle</b> : Notre nous assurerons que chaque carreau est posé avec précision, créant un sol lisse et esthétiquement parfait. Nous veillons à ce que chaque détail soit pris en compte. <br /><br /> <b>Prix Compétitifs </b> : Nous croyons en la qualité sans compromis, mais nous proposons également des tarifs compétitifs pour rendre le carrelage de sol de qualité accessible à tous."
+    },
+    {
+        "nom": "Peinture",
+        "description": "Découvrez notre service de peinture de haute qualité, conçu pour transformer vos espaces en œuvres d'art vivantes. <br /><br /> <b>Préparation Complète</b> : Avant de commencer à peindre, nous assurons une préparation minutieuse des surfaces, y compris le ponçage, le rebouchage et la protection des zones non peintes. <br /> <br /> <b>Travail Soigné</b> : Nous sommes méticuleux dans notre travail, assurant des lignes nettes, une couverture uniforme et un résultat sans éclaboussures."
+    },
+    {
+        "nom": "Parquet",
+        "description": "Découvrez notre service de parquet de haute qualité, conçu pour apporter chaleur et élégance à vos espaces de vie. <br /> <br /> <b>Pose Expert</b> : Nous assurerons une installation précise et soignée pour un sol lisse et esthétique. <br /> <br /> <b>Prix Compétitifs</b> : Nous offrons des tarifs compétitifs pour rendre le parquet de qualité accessible à tous."
+    },
+    {
+        "nom": "Plomberie",
+        "description": "Explorez notre service de plomberie de haute qualité, conçu pour résoudre vos besoins en matière de plomberie, que ce soit pour des réparations, des installations ou des améliorations. <br /> <br /> <b>Réparations Rapides</b> : En cas de fuite, de robinet qui fuit ou de tout autre problème de plomberie, nous sommes prêt à intervenir rapidement pour résoudre les problèmes. <br /> <br /> <b>Installations de Qualité</b> : Si vous avez besoin d'installations de plomberie, vous pouvez compter sur notre expertise pour des résultats durables. <br /> <br /> <b>Diagnostic Expert</b> : Nos plombiers qualifiés effectuent un diagnostic précis pour identifier les problèmes de plomberie et recommander les meilleures solutions."
+    },
+    {
+        "nom": "Électricité",
+        "description": "Explorez notre service d'électricité de haute qualité, conçu pour répondre à tous vos besoins en matière d'installation électrique, de réparation et d'amélioration. <br /> <br /> <b>Installation Électrique Fiable</b> : Nous assurerons des installations électriques fiables et conformes aux normes en vigueur. <br /> <br /> <b>Mises à Niveau Énergétiques</b> : Si vous souhaitez améliorer l'efficacité énergétique de votre domicile ou de votre entreprise, nous proposons des solutions d'économie d'énergie. <br /> <br /> <b>Diagnostic Précis</b> : Nous effectuons des diagnostics précis pour identifier les problèmes électriques et recommander les meilleures solutions. <br /> <br /> <b>Sécurité Électrique</b> : La sécurité électrique est notre priorité. Nous nous assurons que votre système électrique est sûr et conforme aux réglementations."
+    },
+    {
+        "nom": "Meuble",
+        "description": "Explorez notre service de montage de meubles de haute qualité, conçu pour simplifier la mise en place de vos meubles et garantir leur assemblage expert. <br /> <br /> <b>Toutes Marques et Modèles</b> : Que vos meubles proviennent d'IKEA, de magasins locaux ou d'autres marques, nous sommes prêts à les assembler pour vous. <br /> <br /> <b>Montage Rapide</b> : Nous travaillons efficacement pour vous faire gagner du temps et pour que vous puissiez profiter de vos meubles rapidement. <br /> <br /> <b>Outils et Compétences</b> : Nous utilisons les outils appropriés et les compétences nécessaires pour garantir un assemblage solide et durable."
+    },
+    {
+        "nom": "Réaménagement",
+        "description": "Découvrez notre service de réaménagement conçu pour transformer vos espaces existants en environnements plus fonctionnels, esthétiques et adaptés à vos besoins. <br /> <br /> <b>Conception Personnalisée</b> : Nous collaborons avec vous pour créer des plans de réaménagement sur mesure qui reflètent votre style et vos préférences. <br /> <br /> <b>Travail de Qualité</b> : Chaque projet de réaménagement est exécuté avec soin et professionnalisme pour garantir des résultats exceptionnels."
+    },
+    {
+        "nom": "Aménagement",
+        "description": "Explorez notre service d'aménagement conçu pour créer des espaces fonctionnels, harmonieux et esthétiques qui répondent à vos besoins en matière de design d'intérieur. <br /> <br /> <b>Conception Personnalisée</b> : Nous travaillons en étroite collaboration avec vous pour élaborer des plans d'aménagement qui correspondent à vos préférences, à votre style et à vos besoins. <br /> <br /> <b>Sélection de Mobilier et d'Accessoires</b> : Nous vous aidons à choisir le mobilier, les accessoires et les éléments de décoration qui rehausseront l'esthétique de vos espaces."
+    }
+]
