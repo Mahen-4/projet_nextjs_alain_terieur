@@ -79,11 +79,11 @@ const TestimonialText = (props: Props) => {
 const TestimonialAvatar = ({
   src,
   name,
-  title,
+
 }: {
   src: string
   name: string
-  title: string
+
 }) => {
   return (
     <Flex align={'center'} mt={8} direction={'column'}>
@@ -91,7 +91,7 @@ const TestimonialAvatar = ({
       <Stack spacing={-1} align={'center'}>
         <Text fontWeight={600}>{name}</Text>
         <Text fontSize={'sm'} color={useColorModeValue('gray.600', 'gray.400')}>
-          {title}
+ 
         </Text>
       </Stack>
     </Flex>
@@ -100,61 +100,54 @@ const TestimonialAvatar = ({
 
 export default function WithSpeechBubbles() {
   return (
-    <Box bg={useColorModeValue('gray.100', 'gray.700')}>
+    <Box bg={'#abe0f2'}>
       <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'}>
-          <Heading>Our Clients Speak</Heading>
-          <Text>We have been working with clients around the world</Text>
+          <Heading>Nos Clients Témoignent</Heading>
+          <Text>Voici un apperçu des retours suite à nos services</Text>
         </Stack>
         <Stack
           direction={{ base: 'column', md: 'row' }}
           spacing={{ base: 10, md: 4, lg: 10 }}>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Efficient Collaborating</TestimonialHeading>
+              <TestimonialHeading>Rénovation de Carrelage</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed
-                imperdiet nibh lectus feugiat nunc sem.
-              </TestimonialText>
+              Alain Terrieur a transformé ma salle de bains en un espace de rêve. Le choix des carreaux, la précision de la pose et l'attention portée aux détails sont vraiment exceptionnels.              </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
+                'https://i.pravatar.cc/150?img=45'
               }
-              name={'Jane Cooper'}
-              title={'CEO at ABC Corporation'}
+              name={'Marie-Claire G.'}
             />
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Intuitive Design</TestimonialHeading>
+              <TestimonialHeading>Plomberie</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed
-                imperdiet nibh lectus feugiat nunc sem.
+              Alain Terrieur Bâtiment a résolu un problème de plomberie persistant dans ma cuisine. Leur équipe professionnelle a su diagnostiquer le problème rapidement et le réparer efficacement
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
+                'https://i.pravatar.cc/150?img=34'
               }
-              name={'Jane Cooper'}
-              title={'CEO at ABC Corporation'}
+              name={'Isabelle R.'}
             />
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Mindblowing Service</TestimonialHeading>
+              <TestimonialHeading>Création d'une Nouvelle Pièce</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed
-                imperdiet nibh lectus feugiat nunc sem.
+              Ils ont su maximiser l'espace disponible et ont géré le projet du début à la fin, du design à la construction. Notre maison est maintenant plus spacieuse et fonctionnelle, et nous les recommandons vivement.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
+                'https://i.pravatar.cc/150?img=69'
               }
-              name={'Jane Cooper'}
-              title={'CEO at ABC Corporation'}
+              name={'Marc et Sophie D.'}
             />
           </Testimonial>
         </Stack>

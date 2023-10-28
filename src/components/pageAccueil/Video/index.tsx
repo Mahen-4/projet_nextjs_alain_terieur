@@ -4,8 +4,8 @@ import ReactPlayer from 'react-player'
 function Video() {
 
 
+      
     return(
-        <div>
             <center>
 
             <ReactPlayer 
@@ -19,7 +19,6 @@ function Video() {
             />
 
             </center>
-        </div>
     )
 }
 
