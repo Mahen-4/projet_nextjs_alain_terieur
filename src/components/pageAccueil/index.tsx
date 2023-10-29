@@ -5,6 +5,7 @@ import Carousel from "./carrousel"
 import Video from "./Video"
 import Description from "./description"
 import Link from "next/link"
+import Pub from "./pub"
 
 
 const PageAccueil = () => {
@@ -22,6 +23,7 @@ const PageAccueil = () => {
             </Button>
         </Link>
         </center>
+        <Pub/>
         <LargeWithLogoCentered/>
         </Box>
     )
