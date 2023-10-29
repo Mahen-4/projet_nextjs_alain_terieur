@@ -32,8 +32,10 @@ export default function Carousel() {
 
   // These are the images used in the slide
   const cards = [
-    'https://images.unsplash.com/photo-1612852098516-55d01c75769a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60',
-    'https://www.youtube.com/watch?v=ZyjT2KyhHEk'
+    'https://www.deco.fr/sites/default/files/styles/article_970x500/public/2021-01/Desktop%20-%201%283%29.png?itok=ttmA5OGM',
+    'https://www.18h39.fr/wp-content/uploads/2017/05/home-avant-apres-maine-et-loire-min-1250x550.jpg',
+    'https://www.deco.fr/sites/default/files/styles/article_970x500/public/2021-03/Desktop%20-%202.png?itok=O0oPJHCp',
+    '/assets/vrailogo.png'
   ]
 
   return (
@@ -80,11 +82,11 @@ export default function Carousel() {
         {cards.map((url, index) => (
           <Box
             key={index}
-            height={'6xl'}
+            height={'2xl'}
             position="relative"
             backgroundPosition="center"
             backgroundRepeat="no-repeat"
-            backgroundSize="cover"
+            backgroundSize="contain"
             backgroundImage={`url(${url})`}
           />
         ))}

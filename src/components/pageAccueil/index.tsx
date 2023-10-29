@@ -27,8 +27,8 @@ const PageAccueil = () => {
 
     return(
         <Box>
-        {/* <Carousel/> */}
-        <Video/>
+        <Carousel/>
+        {/* <Video />*/}
         <Description/>
         <WithSpeechBubbles/>
         <center>    
