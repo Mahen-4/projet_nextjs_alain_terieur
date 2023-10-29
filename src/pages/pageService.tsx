@@ -4,7 +4,6 @@ import ProductSimple from "@/components/pageServiceCard"
 import { Button, Heading } from "@chakra-ui/react"
 import React from "react"
 import description from '../components/pageServiceCard/description.json'
-import LargeWithLogoCentered from "../components/footer"
 
 const PageService = () => {
 
@@ -60,7 +59,6 @@ const PageService = () => {
                 ))}
                 
             </div>
-            <LargeWithLogoCentered/>
         </div>
         
     )

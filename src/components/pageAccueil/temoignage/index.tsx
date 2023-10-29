@@ -100,7 +100,7 @@ const TestimonialAvatar = ({
 
 export default function WithSpeechBubbles() {
   return (
-    <Box bg={'#abe0f2'} width={'1700px'} marginLeft={'100px'} marginTop={'150px'} marginBottom={'150px'} borderRadius={'40px'}>
+    <Box bg={'#abe0f2'} width={'1700px'}  marginTop={'150px'} marginBottom={'150px'} borderRadius={'40px'}>
       <Container maxW={'8xl'} py={10} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'}>
           <Heading>Nos Clients Témoignent</Heading>

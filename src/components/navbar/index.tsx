@@ -36,7 +36,7 @@ export default function WithAction() {
 
   const changeActiveMenu  = (menu_path: string) => {
     router.push(menu_path)
-    setActiveMenu(!activeMenu)
+    menu_path == "/" ? setActiveMenu(false) : setActiveMenu(true)
   }
 
   return (
