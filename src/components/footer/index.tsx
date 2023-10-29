@@ -4,6 +4,7 @@ import {
   Box,
   chakra,
   Container,
+  Image,
   Stack,
   Text,
   useColorModeValue,
@@ -57,6 +58,12 @@ export default function SmallCentered() {
         spacing={4}
         justify={'center'}
         align={'center'}>
+
+      <Image
+        boxSize='200px'
+        src='/assets/vrailogo.png'
+        alt='Alain Terrieur'
+      />
 
         <Stack direction={'row'} spacing={6}>
           <Box as="a" href={'#'}>

@@ -9,7 +9,7 @@ function Video() {
             <center>
 
             <ReactPlayer 
-            url={'https://www.youtube.com/watch?v=ILv_KBeBdJs'}
+            url={'/assets/Alain_Terrieur.mp4'}
             playing
             muted
             loop
