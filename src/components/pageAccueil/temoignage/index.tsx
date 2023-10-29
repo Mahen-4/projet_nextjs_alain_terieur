@@ -100,8 +100,8 @@ const TestimonialAvatar = ({
 
 export default function WithSpeechBubbles() {
   return (
-    <Box bg={'#abe0f2'}>
-      <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
+    <Box bg={'#abe0f2'} width={'1800px'} marginLeft={'170px'} marginTop={'150px'} marginBottom={'200px'} borderRadius={'40px'}>
+      <Container maxW={'8xl'} py={10} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'}>
           <Heading>Nos Clients Témoignent</Heading>
           <Text>Voici un apperçu des retours suite à nos services</Text>
@@ -148,6 +148,20 @@ export default function WithSpeechBubbles() {
                 'https://i.pravatar.cc/150?img=69'
               }
               name={'Marc et Sophie D.'}
+            />
+          </Testimonial>
+          <Testimonial>
+            <TestimonialContent>
+              <TestimonialHeading>Électricité</TestimonialHeading>
+              <TestimonialText>
+              Alain Terrieur a fait un travail remarquable en mettant à jour l'installation électrique, en veillant à ce que tout soit aux normes actuelles
+              </TestimonialText>
+            </TestimonialContent>
+            <TestimonialAvatar
+              src={
+                'https://i.pravatar.cc/150?img=68'
+              }
+              name={'Thomas M.'}
             />
           </Testimonial>
         </Stack>
