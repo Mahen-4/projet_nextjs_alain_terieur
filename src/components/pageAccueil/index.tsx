@@ -17,8 +17,8 @@ const PageAccueil = () => {
         <WithSpeechBubbles/>
         <center>    
         <Link href={'PageService'} >
-            <Button backgroundColor='#abe0f2' size={'lg'} >
-                Découvrez nos service !
+            <Button backgroundColor='#abe0f2' size={'lg'} width={400} height={75} borderRadius={25} marginBottom={150}>
+                    Découvrez nos service !
             </Button>
         </Link>
         </center>
