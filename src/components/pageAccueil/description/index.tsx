@@ -7,7 +7,7 @@ function Description() {
 
       
     return(
-           <Box bg={'#f9af92'} width={'1800px'} marginLeft={'170px'} marginTop={'100px'} borderRadius={'40px'} p={'10'}>
+           <Box bg={'#f9af92'} width={'1800px'} marginLeft={'70px'} marginTop={'100px'} borderRadius={'40px'} p={'10'}>
             <Stack maxW={'8xl'} py={8} as={Stack} spacing={12}>
                 <Heading marginLeft={10}>Qui sommes nous ?</Heading>
                     <Stack>

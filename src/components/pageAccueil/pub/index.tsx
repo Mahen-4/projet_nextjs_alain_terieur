@@ -7,7 +7,7 @@ function Pub() {
 
       
     return(
-           <Box bg={'#f9af92'} width={'1350px'} marginLeft={'450px'} marginTop={'50px'} borderRadius={'40px'} p={'10'} marginBottom={100}>
+           <Box bg={'#f9af92'} width={'1350px'} marginLeft={'275px'} marginTop={'50px'} borderRadius={'40px'} p={'10'} marginBottom={100}>
             <Stack maxW={'4xl'} py={8} as={Stack} spacing={12}>
                 <Heading marginLeft={350} width={700}>Envie de rénover votre Extérieur ?</Heading>
                 <Heading marginLeft={420}>Contactez Alex Terrieur ! </Heading>
